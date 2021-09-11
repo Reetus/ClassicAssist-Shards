@@ -1,0 +1,30 @@
+name: Generate Hash
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}      
+    - name: Generate Hash
+      run: |
+          $item = New-Object -Typename PSObject
+          $item | add-member -MemberType NoteProperty -Name SHA1 -value (get-filehash -path shards.json -Algorithm sha1).Hash
+          $json = $item | convertto-json
+          $json | Out-File shards.hash.json -Encoding utf8
+      shell: powershell
+    - name: Add changes
+      run: |
+        git add *
+        git config --global user.name 'Hash Generator'
+        git config --global user.email 'reetus@users.noreply.github.com'
+        git commit -am "Generate metadata..."
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
