@@ -1,0 +1,128 @@
+[
+    {
+        "address": "login.ultimaonline.com",
+        "encryption": true,
+        "has_status_protocol": false,
+        "name": "Official EA Servers",
+        "port": 7775,
+        "shard_type": 0,
+        "website": "http://www.uo.com/"
+    },
+    {
+        "address": "login.uogdemise.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOGamers: Demise",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "https://uogdemise.com/"
+    },
+    {
+        "address": "login.uohybrid.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOGamers: Hybrid",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "http://uohybrid.com/"
+    },
+    {
+        "address": "play.trueuo.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "Heritage UO",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "https://trueuo.com/"
+    },
+    {
+        "address": "login.uoforever.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UO Forever",
+        "port": 2599,
+        "shard_type": 0,
+        "website": "https://www.uoforever.com/"
+    },
+    {
+        "address": "login.uoelemental.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UO Elemental",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "https://uoelemental.com/"
+    },
+    {
+        "address": "login.uorenaissance.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UO:Renaissance",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "http://www.uorenaissance.com/"
+    },
+    {
+        "address": "play.uoevolution.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UO Evolution",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "http://uoevolution.com/"
+    },
+    {
+        "address": "notramaos.servegame.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "NoTramAos",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "http://notramaos.com/"
+    },
+    {
+        "address": "uotopia.ddns.net",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOTopia: Awakening",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "http://uotopia.weebly.com/"
+    },
+    {
+        "address": "uotopia.ddns.net",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOTopia: The New Age",
+        "port": 2594,
+        "shard_type": 0,
+        "website": "http://uotopia.weebly.com/"
+    },
+    {
+        "address": "uotopia.ddns.net",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOTopia: Origins",
+        "port": 2595,
+        "shard_type": 0,
+        "website": "http://uotopia.weebly.com/"
+    },
+    {
+        "address": "uotopia.ddns.net",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOTopia: Legends",
+        "port": 2596,
+        "shard_type": 0,
+        "website": "http://uotopia.weebly.com/"
+    },
+    {
+        "address": "login.uoalive.com",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "UOAlive",
+        "port": 2593,
+        "shard_type": 0,
+        "website": "https://uoalive.com/"
+    }
+]
