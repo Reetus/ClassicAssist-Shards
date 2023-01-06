@@ -12,8 +12,17 @@
         "address": "tc.reetus.net",
         "encryption": false,
         "has_status_protocol": true,
-        "name": "ClassicAssist TC (ServUO)",
+        "name": "ClassicAssist TC (ServUO - ToL)",
         "port": 2593,
+        "shard_type": 0,
+        "website": "https://github.com/Reetus/ClassicAssist/"
+    },
+    {
+        "address": "tc.reetus.net",
+        "encryption": false,
+        "has_status_protocol": true,
+        "name": "ClassicAssist TC (RunUO - UOR/ML/SA)",
+        "port": 2594,
         "shard_type": 0,
         "website": "https://github.com/Reetus/ClassicAssist/"
     },
