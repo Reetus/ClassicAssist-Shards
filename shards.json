@@ -9,13 +9,13 @@
         "website": "http://www.uo.com/"
     },
     {
-        "address": "login.reetus.net",
+        "address": "login.uocrossroads.net",
         "encryption": false,
         "has_status_protocol": true,
         "name": "The Crossroads (ML)",
         "port": 2593,
         "shard_type": 0,
-        "website": "https://crossroads.reetus.net"
+        "website": "https://www.uocrossroads.net"
     },   
     {
         "address": "tc.reetus.net",
