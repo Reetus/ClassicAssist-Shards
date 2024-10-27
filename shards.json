@@ -1,14 +1,5 @@
 [
     {
-        "address": "login.ultimaonline.com",
-        "encryption": true,
-        "has_status_protocol": false,
-        "name": "Official EA Servers",
-        "port": 7775,
-        "shard_type": 0,
-        "website": "http://www.uo.com/"
-    },
-    {
         "address": "login.uocrossroads.net",
         "encryption": false,
         "has_status_protocol": true,
@@ -16,6 +7,15 @@
         "port": 2593,
         "shard_type": 0,
         "website": "https://www.uocrossroads.net"
+    },   
+    {
+        "address": "login.ultimaonline.com",
+        "encryption": true,
+        "has_status_protocol": false,
+        "name": "Official EA Servers",
+        "port": 7775,
+        "shard_type": 0,
+        "website": "http://www.uo.com/"
     },   
     {
         "address": "tc.reetus.net",
