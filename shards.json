@@ -18,15 +18,6 @@
         "website": "http://www.uo.com/"
     },   
     {
-        "address": "tc.reetus.net",
-        "encryption": false,
-        "has_status_protocol": true,
-        "name": "ClassicAssist TC",
-        "port": 2593,
-        "shard_type": 0,
-        "website": "https://tc.reetus.net"
-    },
-    {
         "address": "login.uogdemise.com",
         "encryption": false,
         "has_status_protocol": true,
